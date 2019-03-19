@@ -13,6 +13,8 @@
         <module>service-provider</module>
         <module>service-provider2</module>
         <module>service-consumer</module>
+        <module>zuul</module>
+        <module>gateway</module>
     </modules>
 
     <parent>

@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @GetMapping("/hello/{name}")
-    public String hello(@PathVariable String name) {
-        return "1:"+name;
+    public String hello(@PathVariable String name) throws InterruptedException {
+//        Thread.sleep(1000);
+        return "1:" + name;
     }
 }
