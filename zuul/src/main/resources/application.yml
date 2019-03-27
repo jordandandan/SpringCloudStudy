@@ -15,5 +15,8 @@ zuul:
     app-a:
       path: /user/**
       serviceId: consumer-client
-  prefix: /prefix
-  strip-prefix: true
+    app-sidecar: #通过 sidecar 调用 nodejs 的服务
+      path: /sidecar/**
+      serviceId: sidecar
+#  prefix: /prefix
+#  strip-prefix: true

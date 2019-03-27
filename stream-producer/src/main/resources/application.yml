@@ -1,0 +1,16 @@
+server:
+  port: 7888
+spring:
+  application:
+    name: producer
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: stream-demo
+          binder: kafka1
+      binders:
+        kafka1:
+          type:kafka
+          environment:
+            spring:

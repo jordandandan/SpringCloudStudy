@@ -15,6 +15,10 @@
         <module>service-consumer</module>
         <module>zuul</module>
         <module>gateway</module>
+        <module>sidecar</module>
+        <module>stream-producer</module>
+        <module>stream-consumer1</module>
+        <module>stream-consumer2</module>
     </modules>
 
     <parent>
