@@ -12,5 +12,3 @@ spring:
       binders:
         kafka1:
           type:kafka
-          environment:
-            spring:
